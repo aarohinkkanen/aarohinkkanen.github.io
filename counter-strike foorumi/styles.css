@@ -2,9 +2,6 @@ body {
     background-color: #5d79ae;
 }
 
-* {
-    box-sizing: border-box;
-}
 
 header {
     text-align: center;
@@ -22,16 +19,4 @@ h1 {
 p {
     font-family: Verdana;
     font-size: 20px;
-}
-
-
-body {
-    font-family: verdana;
-}
-
-footer {
-    background-color: #c7d5e0;
-    padding: 10px;
-    text-align: center;
-    color: #0c0f12;
 }

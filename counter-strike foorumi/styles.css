@@ -2,6 +2,10 @@ body {
     background-color: #5d79ae;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 header {
     text-align: center;
     padding-top: 30px;
@@ -20,9 +24,6 @@ p {
     font-size: 20px;
 }
 
-<style> {
-    box-sizing: border-box;
-}
 
 body {
     font-family: verdana;
@@ -34,5 +35,3 @@ footer {
     text-align: center;
     color: #0c0f12;
 }
-
-</style>

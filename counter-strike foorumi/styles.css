@@ -26,7 +26,7 @@ p {
     grid-template-areas: "footer footer";
     grid-template-columns: 1fr 3fr;
     gap: 5px;
-    background-color: #5d79ae;
+    background-color: #c7d5e0;
     padding: 5px
 }
 

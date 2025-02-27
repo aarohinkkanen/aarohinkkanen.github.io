@@ -25,18 +25,7 @@
             <div id="posts-container"></div>
         </section>
     </main>
-    <script>
-        function addPost() {
-            let postContent = document.getElementById('post-content').value;
-            if (postContent.trim()) {
-                let postContainer = document.createElement('div');
-                postContainer.className = 'post';
-                postContainer.textContent = postContent;
-                document.getElementById('posts-container').appendChild(postContainer);
-                document.getElementById('post-content').value = '';
-            }
-        }
-    </script>
+
 </body>
 
 </html>

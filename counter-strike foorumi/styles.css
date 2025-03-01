@@ -32,3 +32,22 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+a.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #0c0f12;
+    color: #de9b35;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    flex-direction: row;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-height: 15%;
+}

@@ -113,7 +113,7 @@ th {
 footer {
     font-family: otsikko, "sans serif";
     font-size: 18px;
-    color: rgba(87, 54, 4);
+    color: #0c0f12;
     background-color: #c7d5e0;
     display: flex;
     justify-content: space-around;
@@ -126,7 +126,8 @@ footer {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    background-color: rgba(87, 54, 4);
+    background-color: #0c0f12;
+    ;
     color: white;
 }
 

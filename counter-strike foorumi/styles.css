@@ -9,7 +9,7 @@ body {
 
 header {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 h1 {
@@ -45,6 +45,93 @@ a.cta-button {
     color: #de9b35;
     text-decoration: none;
     border-radius: 5px;
+}
+
+a.cta-button:hover {
+    background-color: #5f6265;
+}
+
+/*pääsivun sisällön asettelu*/
+.grid-teksti1 {
+    grid-area: g1;
+}
+
+.grid-teksti2 {
+    grid-area: g2;
+}
+
+.grid-kuva {
+    grid-area: g3;
+}
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+/*yritys-sivun sisällön asettelu*/
+.grid-henkilo1 {
+    grid-area: g1-h1;
+}
+
+.grid-henkilo1-kuva {
+    grid-area: g2-hk1;
+}
+
+.grid-henkilo2 {
+    grid-area: g3-h2;
+}
+
+.grid-henkilo2-kuva {
+    grid-area: g4-hk2;
+}
+
+.grid-yritys {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+table {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+th {
+    padding-right: 100px;
+}
+
+#kartta {
+    padding: 20px;
+    max-width: 90%;
+}
+
+/*alatunniste, joka sivulla sama*/
+footer {
+    font-family: otsikko, "sans serif";
+    font-size: 18px;
+    color: rgba(87, 54, 4);
+    background-color: #c7d5e0;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*some ikonit*/
+.fa {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(87, 54, 4);
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.6;
 }
 
 /*suuri näyttö*/

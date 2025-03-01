@@ -37,7 +37,7 @@ footer {
     padding-bottom: 15px;
 }
 
-a.cta-button {
+a.toimintakehote {
     display: inline-block;
     padding: 10px 20px;
     margin: 20px;
@@ -47,7 +47,7 @@ a.cta-button {
     border-radius: 5px;
 }
 
-a.cta-button:hover {
+a.toimintakehote:hover {
     background-color: #5f6265;
 }
 

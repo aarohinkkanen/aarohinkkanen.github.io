@@ -12,9 +12,10 @@ header {
     padding: 20px;
     background-color: #5d79ae;
     display: flex;
-    padding-top: 50px;
     align-items: center;
+    justify-content: space-between;
 }
+
 
 h1 {
     font-family: otsikko, "britannic";

@@ -8,8 +8,12 @@ body {
 }
 
 header {
-    text-align: center;
+    grid-row: 1 / 2;
+    padding: 20px;
+    background-color: #5d79ae;
+    display: flex;
     padding-top: 50px;
+    align-items: center;
 }
 
 h1 {

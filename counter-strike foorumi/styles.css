@@ -61,6 +61,23 @@ a.cta-button:hover {
     background-color: #5f6265;
 }
 
+main {
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
 /*pääsivun sisällön asettelu*/
 .grid-teksti1 {
     grid-area: g1;

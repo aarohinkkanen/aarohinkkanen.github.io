@@ -1,9 +1,10 @@
 body {
-    color: #0c0f12;
-    background-color: #5d79ae;
+    margin: 0;
+    padding: 0;
     font-family: Verdana;
     font-size: 16px;
-    margin: 0;
+    background-color: #5d79ae;
+    color: #0c0f12;
     /*selain luo automaattisesti pienen marginaalin*/
 }
 
@@ -68,8 +69,9 @@ a.cta-button:hover {
 main {
     padding: 20px;
     min-height: 100vh;
+    overflow-y: auto;
+    box-sizing: border-box;
 }
-
 
 
 .image-container {

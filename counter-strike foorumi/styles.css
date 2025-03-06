@@ -47,12 +47,17 @@ a.main-button {
 
 h1 {
     text-align: center;
+    font-family: sans-serif;
 }
 
-h2,
-h3,
-p {
+h2 {
     text-align: center;
+    font-family: sans-serif;
+}
+
+h3 p {
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .sisalto p.esittely {

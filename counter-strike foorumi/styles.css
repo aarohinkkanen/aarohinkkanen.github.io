@@ -5,42 +5,62 @@ body {
     font-size: 16px;
     background-color: #5d79ae;
     color: #0c0f12;
-    /*selain luo automaattisesti pienen marginaalin*/
 }
 
 header {
-    grid-row: 1 / 2;
     padding: 20px;
     background-color: #5d79ae;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    position: relative;
 }
 
+.header-nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
 
-h1 {
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+h1#slogan {
     font-family: otsikko, "britannic";
     font-size: 40px;
     color: #de9b35;
     text-align: center;
-    padding-top: 30px;
+    margin-top: 120px;
+    /* Muutetaan arvoa tarpeen mukaan */
 }
 
-h2 {
+a.main-button {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+h1 {
     text-align: center;
 }
 
-h3 {
-    text-align: center;
-}
-
+h2,
+h3,
 p {
+    text-align: center;
+}
+
+.sisalto p.esittely {
     font-family: Verdana;
     font-size: 20px;
     text-align: center;
 }
 
-/*alatunniste, joka sivulla sama*/
 footer {
     font-family: otsikko, "sans serif";
     font-size: 18px;
@@ -55,11 +75,11 @@ footer {
 a.cta-button {
     display: inline-block;
     padding: 10px 20px;
-    margin: 20px;
     background-color: #0c0f12;
     color: #de9b35;
     text-decoration: none;
     border-radius: 5px;
+    margin: 0 10px;
 }
 
 a.cta-button:hover {
@@ -73,7 +93,6 @@ main {
     box-sizing: border-box;
 }
 
-
 .image-container {
     display: flex;
     justify-content: center;
@@ -85,84 +104,12 @@ main {
     height: auto;
 }
 
-
-/*pääsivun sisällön asettelu*/
-.grid-teksti1 {
-    grid-area: g1;
-}
-
-.grid-teksti2 {
-    grid-area: g2;
-}
-
-.grid-kuva {
-    grid-area: g3;
-}
-
-.grid-container {
-    display: grid;
-    gap: 20px;
-    padding: 20px;
-}
-
-/*yritys-sivun sisällön asettelu*/
-.grid-henkilo1 {
-    grid-area: g1-h1;
-}
-
-.grid-henkilo1-kuva {
-    grid-area: g2-hk1;
-}
-
-.grid-henkilo2 {
-    grid-area: g3-h2;
-}
-
-.grid-henkilo2-kuva {
-    grid-area: g4-hk2;
-}
-
-.grid-yritys {
-    display: grid;
-    gap: 20px;
-    padding: 20px;
-}
-
-table {
-    text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-}
-
-th {
-    padding-right: 100px;
-}
-
-#kartta {
-    padding: 20px;
-    max-width: 90%;
-}
-
-/*alatunniste, joka sivulla sama*/
-footer {
-    font-family: otsikko, "sans serif";
-    font-size: 18px;
-    color: #0c0f12;
-    background-color: #c7d5e0;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
 /*some ikonit*/
 .fa {
     padding: 10px;
     text-align: center;
     text-decoration: none;
     background-color: #0c0f12;
-    ;
     color: white;
 }
 
@@ -171,8 +118,8 @@ footer {
 }
 
 /*suuri näyttö*/
-
 footer {
+    font-family: Verdana;
     flex-direction: row;
     text-align: left;
     position: fixed;

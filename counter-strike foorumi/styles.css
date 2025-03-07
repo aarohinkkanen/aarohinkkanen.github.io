@@ -64,7 +64,7 @@ p {
 footer {
     font-family: otsikko, "sans serif";
     font-size: 18px;
-    color: rgba(87, 54, 4);
+    color: #0c0f12;
     background-color: #c7d5e0;
     display: flex;
     justify-content: space-around;

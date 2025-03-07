@@ -59,12 +59,17 @@ p {
     font-family: Verdana;
     font-size: 20px;
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border: 2px solid #de9b35;
 }
 
 footer {
     font-family: otsikko, "sans serif";
     font-size: 18px;
-    color: #0c0f12;
+    color: rgba(87, 54, 4);
     background-color: #c7d5e0;
     display: flex;
     justify-content: space-around;

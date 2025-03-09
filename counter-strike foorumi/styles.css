@@ -141,96 +141,80 @@ footer {
 }
 
 /*tabletti näyttö*/
-@media screen and (min-width: 600px) {
-    #etusivu {
-        background-image: url(kuvat/paakuva-kahvila.jpg);
-        background-size: cover;
-        height: 600px;
+@media (min-width: 600px) and (max-width: 900px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    #alisivut {
-        background-image: url(kuvat/tausta-mobiili.jpg);
+    .header-nav {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        /* Suurempi väli navigaation linkkien välillä */
     }
 
-    nav a {
-        font-size: 15px;
-        width: 100px;
-        height: 20px;
-        padding: 7px;
-        margin: 3px 5px;
+    .header-nav a {
+        font-size: 18px;
+        /* Suurempi fontti tabletinäkymään */
+        padding: 15px;
+        margin: 8px;
     }
 
-    #slogan {
-        font-size: 40px;
-        padding-top: 100px;
-        padding-bottom: 20px;
-        padding-left: 50px;
-        padding-right: 50px;
+    .logo {
+        display: block;
+        margin: 0 auto;
+        max-width: 200px;
+        /* Suurempi koko logolle */
+        height: auto;
+        position: relative;
     }
 
-    .toimintakehote {
-        font-size: 20px;
+    main {
+        text-align: center;
+        padding: 20px;
+        /* Lisää tilaa sisältöalueelle */
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 25px;
+        /* Hieman isompi fonttikoko otsikoille */
+        text-align: center;
+        margin: 15px 0;
     }
 
     .sisalto {
-        margin: 3% 10% 3% 10%;
-    }
-
-    .alisivu-sisalto {
-        margin: 3% 10% 3% 10%;
-        flex-direction: column;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-
-    h3 {
-        font-size: 20px;
+        margin: 20px;
     }
 
     .esittely {
-        font-size: 20px;
-    }
-
-    #paasivu {
-        grid-template-areas:
-            'g1'
-            'g3'
-            'g2';
-    }
-
-    #kahvimme {
-        grid-template-areas:
-            'g1'
-            'g3'
-            'g2';
-    }
-
-    #musamme {
-        grid-template-areas:
-            'g1'
-            'g3'
-            'g2';
-    }
-
-    .grid-yritys {
-        grid-template-areas:
-            'g1-h1'
-            'g2-hk1'
-            'g3-h2'
-            'g4-hk2';
+        font-size: 18px;
     }
 
     footer {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        /* Footer-elementit riviin */
+        justify-content: center;
+        align-items: center;
+        background-color: #c7d5e0;
+        padding: 15px;
+    }
+
+    footer div {
+        margin: 10px 20px;
         text-align: center;
     }
+
+    .fa {
+        font-size: 25px;
+        margin: 0 10px;
+    }
 }
+
 
 /*mobiili näyttö*/
 @media (max-width: 600px) {
@@ -270,7 +254,7 @@ footer {
     h3 {
         font-size: 20px;
         text-align: center;
-        margin-top: 10px 0;
+        margin: 10px 0;
     }
 
     .sisalto {

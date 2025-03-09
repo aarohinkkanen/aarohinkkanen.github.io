@@ -147,6 +147,13 @@ img {
     opacity: 0.6;
 }
 
+.some-ikonit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
 /*suuri näyttö*/
 footer {
     font-family: Verdana;

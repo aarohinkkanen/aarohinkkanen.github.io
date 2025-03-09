@@ -75,7 +75,7 @@ footer {
     align-items: center;
     height: auto;
     justify-content: space-around;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
@@ -217,7 +217,14 @@ footer {
 
 
 /*mobiili näyttö*/
+
 @media (max-width: 600px) {
+    .sisalto p.esittely {
+        margin: 20px;
+        font-size: 16px;
+        text-align: left;
+    }
+
     header {
         display: flex;
         flex-direction: column;

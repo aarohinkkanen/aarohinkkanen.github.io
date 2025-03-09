@@ -37,6 +37,7 @@ h1#slogan {
     color: #de9b35;
     text-align: center;
     margin-top: 120px;
+    border-bottom: solid;
     /* Muutetaan arvoa tarpeen mukaan */
 }
 
@@ -217,46 +218,44 @@ footer {
 
 
 /*mobiili näyttö*/
+
 @media (max-width: 600px) {
+    .sisalto p.esittely {
+        margin: 20px;
+        font-size: 16px;
+        text-align: left;
+    }
+
     header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 20px;
-        /* Lisää tilaa ylä- ja alareunaan */
-    }
-
-    .logo {
-        display: block;
-        margin: 10px auto;
-        /* Keskittää logon ja lisää väliä ylä- ja alapuolelle */
-        max-width: 120px;
-        /* Rajoittaa logon leveyttä mobiilissa */
-        height: auto;
-        position: relative;
     }
 
     .header-nav {
         flex-direction: row;
-        /* Pitää navigointipainikkeet rivissä */
         justify-content: center;
-        gap: 15px;
-        /* Lisää väliä painikkeiden välille */
-        margin-top: 20px;
-        /* Lisää tilaa logon ja navigoinnin väliin */
+        gap: 10px;
     }
 
     .header-nav a {
-        font-size: 14px;
-        /* Navigointipainikkeiden pienempi fontti mobiilille */
+        font-size: 15px;
         padding: 10px;
-        margin: 5px;
+        margin: 20px;
+    }
+
+    .logo {
+        display: block;
+        top: 10px;
+        margin-bottom: 5px;
+        max-width: 120px;
+        height: auto;
+        position: relative;
     }
 
     main {
         text-align: center;
         padding: 10px;
-        /* Lisää tilaa sisällön ympärille */
     }
 
     h1,
@@ -271,11 +270,8 @@ footer {
         margin: 10px;
     }
 
-    .sisalto p.esittely {
-        margin: 20px;
-        /* Lisää tilaa tekstin ympärille */
+    .esittely {
         font-size: 16px;
-        text-align: left;
     }
 
     footer {
@@ -295,4 +291,5 @@ footer {
         font-size: 20px;
         margin: 0 5px;
     }
+
 }

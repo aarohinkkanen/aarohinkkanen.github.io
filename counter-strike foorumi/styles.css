@@ -8,6 +8,7 @@ body {
 }
 
 header {
+    min-height: 50px;
     padding: 20px;
     background-color: #5d79ae;
     display: flex;

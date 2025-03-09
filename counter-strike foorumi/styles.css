@@ -141,6 +141,96 @@ footer {
 }
 
 /*tabletti näyttö*/
+@media screen and (min-width: 600px) {
+    #etusivu {
+        background-image: url(kuvat/paakuva-kahvila.jpg);
+        background-size: cover;
+        height: 600px;
+    }
+
+    #alisivut {
+        background-image: url(kuvat/tausta-mobiili.jpg);
+    }
+
+    nav a {
+        font-size: 15px;
+        width: 100px;
+        height: 20px;
+        padding: 7px;
+        margin: 3px 5px;
+    }
+
+    #slogan {
+        font-size: 40px;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .toimintakehote {
+        font-size: 20px;
+    }
+
+    .sisalto {
+        margin: 3% 10% 3% 10%;
+    }
+
+    .alisivu-sisalto {
+        margin: 3% 10% 3% 10%;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .esittely {
+        font-size: 20px;
+    }
+
+    #paasivu {
+        grid-template-areas:
+            'g1'
+            'g3'
+            'g2';
+    }
+
+    #kahvimme {
+        grid-template-areas:
+            'g1'
+            'g3'
+            'g2';
+    }
+
+    #musamme {
+        grid-template-areas:
+            'g1'
+            'g3'
+            'g2';
+    }
+
+    .grid-yritys {
+        grid-template-areas:
+            'g1-h1'
+            'g2-hk1'
+            'g3-h2'
+            'g4-hk2';
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
 /*mobiili näyttö*/
 @media (max-width: 600px) {

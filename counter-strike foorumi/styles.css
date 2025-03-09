@@ -217,73 +217,82 @@ footer {
 
 
 /*mobiili näyttö*/
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        /* Lisää tilaa ylä- ja alareunaan */
+    }
 
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
+    .logo {
+        display: block;
+        margin: 10px auto;
+        /* Keskittää logon ja lisää väliä ylä- ja alapuolelle */
+        max-width: 120px;
+        /* Rajoittaa logon leveyttä mobiilissa */
+        height: auto;
+        position: relative;
+    }
 
-.logo {
-    display: block;
-    margin: 10px auto;
-    max-width: 120px;
-    height: auto;
-    position: relative;
-}
+    .header-nav {
+        flex-direction: row;
+        /* Pitää navigointipainikkeet rivissä */
+        justify-content: center;
+        gap: 15px;
+        /* Lisää väliä painikkeiden välille */
+        margin-top: 20px;
+        /* Lisää tilaa logon ja navigoinnin väliin */
+    }
 
-.header-nav {
-    flex-direction: row;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-}
+    .header-nav a {
+        font-size: 14px;
+        /* Navigointipainikkeiden pienempi fontti mobiilille */
+        padding: 10px;
+        margin: 5px;
+    }
 
-.header-nav a {
-    font-size: 14px;
-    padding: 10px;
-    margin: 5px;
-}
+    main {
+        text-align: center;
+        padding: 10px;
+        /* Lisää tilaa sisällön ympärille */
+    }
 
-main {
-    text-align: center;
-    padding: 10px;
-}
+    h1,
+    h2,
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        margin: 10px 0;
+    }
 
-h1,
-h2,
-h3 {
-    font-size: 20px;
-    text-align: center;
-    margin: 10px 0;
-}
+    .sisalto {
+        margin: 10px;
+    }
 
-.sisalto {
-    margin: 10px;
-}
+    .sisalto p.esittely {
+        margin: 20px;
+        /* Lisää tilaa tekstin ympärille */
+        font-size: 16px;
+        text-align: left;
+    }
 
-.sisalto p.esittely {
-    margin: 20px;
-    font-size: 16px;
-    text-align: left;
-}
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #c7d5e0;
+        padding: 10px;
+    }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #c7d5e0;
-    padding: 10px;
-}
+    footer div {
+        margin: 5px 0;
+        text-align: center;
+    }
 
-footer div {
-    margin: 5px 0;
-    text-align: center;
-}
-
-.fa {
-    font-size: 20px;
-    margin: 0 5px;
+    .fa {
+        font-size: 20px;
+        margin: 0 5px;
+    }
 }

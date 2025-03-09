@@ -55,6 +55,7 @@ h2,
 h3,
 p {
     text-align: center;
+    font-weight: bold;
 }
 
 .sisalto p.esittely {

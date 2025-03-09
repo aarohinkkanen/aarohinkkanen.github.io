@@ -123,6 +123,16 @@ img {
     height: auto;
 }
 
+.white-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px #636363;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+}
+
 /*some ikonit*/
 .fa {
     padding: 10px;

@@ -247,7 +247,8 @@ footer {
 
     .logo {
         display: block;
-        top: 10px;
+        margin: 0 auto;
+        top: 90px;
         margin-bottom: 5px;
         max-width: 120px;
         height: auto;
@@ -277,14 +278,15 @@ footer {
 
     footer {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-around;
         align-items: center;
         background-color: #c7d5e0;
-        padding: 20px;
+        padding: 50px;
     }
 
     footer div {
-        margin: 10px auto;
+        margin: 0 10px;
         text-align: center;
     }
 

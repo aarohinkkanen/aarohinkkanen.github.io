@@ -240,12 +240,13 @@ footer {
     .header-nav a {
         font-size: 15px;
         padding: 10px;
-        margin: 5px;
+        margin: 20px;
     }
 
     .logo {
         display: block;
-        margin: 0 auto;
+        top: 10px;
+        margin-bottom: 20px;
         max-width: 120px;
         height: auto;
         position: relative;

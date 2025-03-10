@@ -154,27 +154,6 @@ img {
 }
 
 /*suuri näyttö*/
-footer {
-    font-family: Verdana;
-    flex-direction: row;
-    text-align: left;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    max-height: 5%;
-    margin-top: auto;
-}
-
-html,
-body {
-    min-height: 100%;
-    margin: 0;
-}
-
-main {
-    margin-bottom: auto;
-}
-
 
 /*tabletti näyttö*/
 @media (min-width: 600px) and (max-width: 900px) {

@@ -106,7 +106,7 @@ a.cta-button:hover {
 main {
     flex: 1;
     padding: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
     box-sizing: border-box;
 }
 
@@ -164,6 +164,11 @@ img {
         font-size: 22px;
     }
 
+    .white-box {
+        margin: 40px auto;
+        max-height: unset;
+    }
+
     footer {
         flex-direction: row;
         text-align: left;
@@ -173,7 +178,6 @@ img {
         max-height: 15%;
     }
 }
-
 
 /*tabletti näyttö*/
 @media (min-width: 600px) and (max-width: 900px) {

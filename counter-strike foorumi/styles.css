@@ -249,7 +249,16 @@ img {
         margin: 0 10px;
 
     }
+
+    .white-box {
+        margin-top: 50px;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
 }
+
 
 
 /*mobiili näyttö*/

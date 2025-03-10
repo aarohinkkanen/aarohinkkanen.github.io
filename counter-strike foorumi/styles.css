@@ -104,7 +104,6 @@ main {
     padding: 20px;
     padding-bottom: 60px;
     min-height: 100vh;
-    overflow-y: auto;
     box-sizing: border-box;
 }
 

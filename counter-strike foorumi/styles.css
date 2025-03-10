@@ -5,6 +5,9 @@ body {
     font-size: 16px;
     background-color: #5d79ae;
     color: #0c0f12;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -80,10 +83,11 @@ footer {
     background-color: #c7d5e0;
     display: flex;
     align-items: center;
-    height: auto;
     justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box
 }
 
 a.cta-button {
@@ -101,9 +105,9 @@ a.cta-button:hover {
 }
 
 main {
+    flex: 1;
     padding: 20px;
     padding-bottom: 60px;
-    min-height: 100vh;
     box-sizing: border-box;
 }
 

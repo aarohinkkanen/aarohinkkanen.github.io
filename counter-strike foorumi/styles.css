@@ -133,8 +133,7 @@ img {
     margin: 20px auto;
     width: 90%;
     max-width: 800px;
-    max-height: 600px;
-    box-sizing: border-box;
+    max-height: 700px;
 }
 
 /*some ikonit*/
@@ -164,11 +163,6 @@ img {
         font-size: 22px;
     }
 
-    .white-box {
-        margin: 40px auto;
-        max-height: unset;
-    }
-
     footer {
         flex-direction: row;
         text-align: left;
@@ -178,6 +172,7 @@ img {
         max-height: 15%;
     }
 }
+
 
 /*tabletti näyttö*/
 @media (min-width: 600px) and (max-width: 900px) {
@@ -209,10 +204,8 @@ img {
     }
 
     main {
-        flex: 1;
         text-align: center;
         padding: 20px;
-        width: 80%;
     }
 
     h1,
@@ -238,7 +231,6 @@ img {
         align-items: center;
         background-color: #c7d5e0;
         padding: 15px;
-        position: relative;
     }
 
     footer div {
@@ -251,18 +243,7 @@ img {
         margin: 0 10px;
 
     }
-
-    .white-box {
-        margin-top: 30px;
-        margin-bottom: 20px;
-
-        .logo {
-            margin-bottom: 20px;
-        }
-    }
-
 }
-
 
 
 /*mobiili näyttö*/

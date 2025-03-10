@@ -183,7 +183,7 @@ img {
 @media (min-width: 600px) and (max-width: 900px) {
     header {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -211,6 +211,7 @@ img {
     main {
         text-align: center;
         padding: 20px;
+        width: 80%;
     }
 
     h1,
@@ -231,7 +232,7 @@ img {
 
     footer {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: #c7d5e0;
